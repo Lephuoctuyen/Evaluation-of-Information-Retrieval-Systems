@@ -39,7 +39,6 @@ def mean_average_precision(baseline, relevance_file):
     except FileNotFoundError as e:
         print("Baseline file not found." + str(e.args) + "\nCould not calculate MAP values. "
                                                          "Exiting the program.")
-        exit(-2)
 
     try:
         with open(relevance_file, 'r', encoding='utf-8') as file:
@@ -47,8 +46,7 @@ def mean_average_precision(baseline, relevance_file):
     except FileNotFoundError:
         print("Relevance information file not found. Exiting the"
               "program...")
-        exit(-2)
-
+      
     # traverse each query and get their resultant documents
     for query in results:
         precision_values = []
