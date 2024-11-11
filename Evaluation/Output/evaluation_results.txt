@@ -1,0 +1,22 @@
+
+Mean Average Precision:
+
+BM25 Stopped              0.3726437615362634
+Lucene                    0.35548304485648885
+BM25                      0.34481252055389244
+SQ_Likelihood_Stopped     0.33832654308275556
+SQ_Likelihood             0.31269504841803253
+Query_expansion           0.29201123282298946
+Stopped_TFIDF             0.24098812204347872
+TFIDF                     0.15136713287720308
+
+Mean_Reciprocal_Rank:
+
+BM25 Stopped              0.42408678275295203
+BM25                      0.41391377840716065
+SQ_Likelihood_Stopped     0.3845750142199788
+Lucene                    0.350858927850249
+SQ_Likelihood             0.32725767688173696
+Query_expansion           0.2839914341930471
+TFIDF                     0.2590033675595173
+Stopped_TFIDF             0.22154472185790441

@@ -1,0 +1,10 @@
+
+Mean Average Precision:
+
+BM25 on noise-minimized queries 0.19786070709532863
+BM25 on noise-induced queries 0.1782936842802936
+
+Mean_Reciprocal_Rank:
+
+BM25 on noise-minimized queries 0.2152479619398847
+BM25 on noise-induced queries 0.20859319599573758
